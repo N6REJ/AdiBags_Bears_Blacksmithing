@@ -4,6 +4,7 @@
 ## Author: BearLeeAble
 ## X-License: MIT
 ## X-Curse-Project-ID: 545326
+## X-Wago-ID:  XrNkrwGa
 ## DefaultState: enabled
 ## Dependencies: AdiBags
 
