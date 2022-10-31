@@ -12,13 +12,13 @@ local Expansion = L["Shadowlands"]
 -- Create addon table
 local db = {}
 
-db.name = "Bears Blacksmithing"
+db.name = Expansion .. " Blacksmithing"
 db.desc = "Blacksmithing reagents for Bears"
 
 -- Filter info
 db.Filters = {
     ["Ore"] = {
-        uiName = "Bears Mining",
+        uiName = Expansion .. " Mining",
         uiDesc = "Ore found in " .. Expansion,
         title = "Ore",
         items = {
@@ -35,7 +35,7 @@ db.Filters = {
         }
     },
     ["Transmute"] = {
-        uiName = "Bears Blacksmith Transmute",
+        uiName = Expansion .. " Blacksmith Transmute",
         uiDesc = "Transmuted items made by Blacksmiths in " .. Expansion,
         title = "Transmute",
         items = {
@@ -44,7 +44,7 @@ db.Filters = {
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = "Bears Blacksmith Reagents",
+        uiName = Expansion .. " Blacksmith Reagents",
         uiDesc = "Blacksmithing reagents from vendors used in " .. Expansion,
         title = "Blacksmith Reagents",
         items = {
@@ -55,7 +55,7 @@ db.Filters = {
         }
     },
     ["Crafted_Reagents"] = {
-        uiName = "Bears Crafted Reagents",
+        uiName = Expansion .. " Crafted Reagents",
         uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
