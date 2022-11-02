@@ -1,4 +1,4 @@
--- AdiBags_Bears_Blacksmithing - Database
+-- AdiBags Bears Blacksmithing - Database
 -- Created by @project-author@ character is Bearesquishy - dalaran please credit whenever.
 -- Source on GitHub: https://n6rej.github.io
 ---@type
@@ -6,14 +6,14 @@
 local addonName, addonTable = ...;
 
 -- Get locals names
-local L = addonTable.locales;
-local Expansion = L["Shadowlands"]
+local E = addonTable.expansion;
+local Expansion = E["Shadowlands"]
 
 -- Create addon table
 local db = {}
 
 db.name = Expansion .. " Blacksmithing"
-db.desc = "Blacksmithing reagents for Bears"
+db.desc = "Blacksmithing reagents for " .. Expansion
 
 -- Filter info
 db.Filters = {
@@ -46,7 +46,7 @@ db.Filters = {
     ["Vendor_Reagents"] = {
         uiName = Expansion .. " Blacksmith Reagents",
         uiDesc = "Blacksmithing reagents from vendors used in " .. Expansion,
-        title = "Blacksmith Reagents",
+        title = "Vendor Reagents",
         items = {
             -- ID    = true,    --Item name
             [178787] = true, -- Orboreal shards
