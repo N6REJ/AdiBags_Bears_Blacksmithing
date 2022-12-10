@@ -18,7 +18,7 @@ db.desc = "Blacksmithing reagents for " .. Expansion
 -- Filter info
 db.Filters = {
     ["Ore"] = {
-        uiName = Expansion .. " Mining",
+        uiName = "Bears " .. Expansion .. " Mining",
         uiDesc = "Ore found in " .. Expansion,
         title = "Ore",
         items = {
@@ -35,7 +35,7 @@ db.Filters = {
         }
     },
     ["Transmute"] = {
-        uiName = Expansion .. " Blacksmith Transmute",
+        uiName = "Bears " .. Expansion .. " Blacksmith Transmute",
         uiDesc = "Transmuted items made by Blacksmiths in " .. Expansion,
         title = "Transmute",
         items = {
@@ -44,7 +44,7 @@ db.Filters = {
         }
     },
     ["Vendor_Reagents"] = {
-        uiName = Expansion .. " Blacksmith Reagents",
+        uiName = "Bears " .. Expansion .. " Blacksmith Reagents",
         uiDesc = "Blacksmithing reagents from vendors used in " .. Expansion,
         title = "Vendor Reagents",
         items = {
@@ -55,7 +55,7 @@ db.Filters = {
         }
     },
     ["Crafted_Reagents"] = {
-        uiName = Expansion .. " Crafted Reagents",
+        uiName = "Bears " .. Expansion .. " Crafted Reagents",
         uiDesc = "Reagents made by crafting in " .. Expansion,
         title = "Crafted Reagents",
         items = {
@@ -75,4 +75,4 @@ db.Filters = {
 }
 
 -- now that db is populated lets pass it on.
-addonTable.db = db
+addonTable.Shadowlands = db
