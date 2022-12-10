@@ -29,6 +29,9 @@ db.Filters = {
 			[189143] = true, -- Draconium Ore 1
 			[188658] = true, -- Draconium Ore 2
 			[190311] = true, -- Draconium Ore 3
+			[190312] = true, -- Khaz'gorite Ore 1
+			[190313] = true, -- Khaz'gorite Ore 2
+			[190314] = true, -- Khaz'gorite Ore 3
 		}
 	}--[[,
 		["Crafted_Reagents"] = {
