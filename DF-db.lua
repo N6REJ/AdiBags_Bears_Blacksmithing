@@ -21,7 +21,8 @@ db.Filters = {
 		uiName = "Bears " .. Expansion .. " Blacksmithing",
 		uiDesc = "Blacksmithing found in " .. Expansion,
 		title = "Blacksmith",
-		items = {-- ID,	--Item name
+		items = {
+			-- ID,	--Item name
 			[201402] = true, -- Large Sturdy Femur
 			[201403] = true, -- Mastodon Tusk
 			[201399] = true, -- Primal Bear Spine
@@ -60,18 +61,27 @@ db.Filters = {
 			-- ID    = true,    --Item name
 			[201400] = true, -- Aquatic Maw
 		}
-	}
-	--[[,
+	},
 		["Crafted_Reagents"] = {
-		uiName = "Bears " .. Expansion .. " Crafted Reagents",
-		uiDesc = "Assorted crafted reagents used in " .. Expansion,
+		uiName = "Bears " .. Expansion .. " Blacksmith Crafted Reagents",
+		uiDesc = "Blacksmith crafted reagents used in " .. Expansion,
 		title = "Crafted",
 		items = {
 			-- ID  = true,		--Item name
-			[] = true, -- Primal Convergent 3
+			[190530] = true, -- Frostfire Alloy 1
+			[190531] = true, -- Frostfire Alloy 2
+			[190532] = true, -- Frostfire Alloy 3
+			[190536] = true, -- Infurious Alloy 1
+			[190537] = true, -- Infurious Alloy 2
+			[190538] = true, -- Infurious Alloy 3
+			[189541] = true, -- Primal Molten Alloy 1
+			[189542] = true, -- Primal Molten Alloy 2
+			[189543] = true, -- Primal Molten Alloy 3
+			[190533] = true, -- Obsidian Seared Alloy 1
+			[190534] = true, -- Obsidian Seared Alloy 2
+			[190535] = true, -- Obsidian Seared Alloy 3
 		}
 	}
---]]
 }
 
 -- now that db is populated lets pass it on.
