@@ -53,15 +53,6 @@ db.Filters = {
 			[194545] = true, -- Prismatic Ore
 		}
 	},
-	["Fish_Reagents"] = {
-		uiName = "Bears " .. Expansion .. " Fish Reagents",
-		uiDesc = "Fish reagents from vendors used in " .. Expansion,
-		title = "Fish",
-		items = {
-			-- ID    = true,    --Item name
-			[201400] = true, -- Aquatic Maw
-		}
-	},
 		["Crafted_Reagents"] = {
 		uiName = "Bears " .. Expansion .. " Crafted Reagents",
 		uiDesc = "Assorted crafted reagents used in " .. Expansion,
