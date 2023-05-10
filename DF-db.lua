@@ -73,6 +73,15 @@ db.Filters = {
 			[190535] = true, -- Obsidian Seared Alloy 3
 		}
 	},
+	["Tools"] = {
+		uiName = "Bears " .. Expansion .. " Tools",
+		uiDesc = "Tools used in " .. Expansion,
+		title = "Tools",
+		items = {
+			-- ID    = true,    --Item name
+			[201366] = true, -- Master's Hammer
+		}
+	},
 	["Artisan"] = {
 		uiName = "Bears " .. Expansion .. " Artisan Blacksmithing reagents",
 		uiDesc = "Artisan reagents found in " .. Expansion,
